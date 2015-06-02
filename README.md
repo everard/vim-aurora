@@ -31,8 +31,10 @@ To enable theme colors for indent guides, add the following lines to your vimrc 
     let g:indent_guides_auto_colors = 0
 
 ## Screenshots
-GUI:
+###GUI
+
 ![GUI](https://raw.githubusercontent.com/wiki/everard/vim-aurora-theme/screenshot-gui.png)
 
-Terminal:
+###Terminal
+
 ![Terminal](https://raw.githubusercontent.com/wiki/everard/vim-aurora-theme/screenshot-terminal.png)
