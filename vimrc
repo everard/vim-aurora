@@ -19,8 +19,8 @@ set backspace=2
 " Enable bottom scrollbar
 set guioptions+=b
 
-" Set \r\n line ending
-set ff=dos
+" Set \n line ending
+set ff=unix
 
 " Enable visible whitespace
 set list listchars=space:·
@@ -55,6 +55,12 @@ set nowrap
 
 " Strip trailing whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
+
+" ------------------------------------------------------------------------------
+" NERDtree configuration
+" ------------------------------------------------------------------------------
+let g:NERDTreeWinPos = "right"
+map <C-x> :NERDTreeToggle<CR>
 
 " ------------------------------------------------------------------------------
 " Airline configuration
