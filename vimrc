@@ -56,11 +56,15 @@ set nowrap
 " Strip trailing whitespace on save
 autocmd BufWritePre * :%s/\s\+$//e
 
+" Mappings
+nmap <S-a> :bp<CR>
+nmap <S-d> :bn<CR>
+
 " ------------------------------------------------------------------------------
 " NERDtree configuration
 " ------------------------------------------------------------------------------
 let g:NERDTreeWinPos = "right"
-map <C-x> :NERDTreeToggle<CR>
+nmap <C-x> :NERDTreeToggle<CR>
 
 " ------------------------------------------------------------------------------
 " Airline configuration
