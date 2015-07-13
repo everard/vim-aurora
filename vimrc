@@ -66,6 +66,8 @@ nmap <S-d> :bn<CR>
 let g:NERDTreeWinPos = "right"
 nmap <C-x> :NERDTreeToggle<CR>
 
+autocmd FileType nerdtree nmap <buffer> <CR> go
+
 " ------------------------------------------------------------------------------
 " Airline configuration
 " ------------------------------------------------------------------------------
