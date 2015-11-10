@@ -60,6 +60,8 @@ autocmd BufWritePre * :%s/\s\+$//e
 nmap <S-a> :bp<CR>
 nmap <S-d> :bn<CR>
 
+nnoremap <leader>f :! format_source_file.sh % %<CR><CR>
+
 " ------------------------------------------------------------------------------
 " NERDtree configuration
 " ------------------------------------------------------------------------------
