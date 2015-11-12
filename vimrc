@@ -61,6 +61,8 @@ nmap <S-a> :bp<CR>
 nmap <S-d> :bn<CR>
 
 nnoremap <leader>f :! format_source_file.sh % %<CR><CR>
+nnoremap <leader>h :noh<CR>
+nnoremap <leader>x :bd<CR>
 
 " ------------------------------------------------------------------------------
 " NERDtree configuration
