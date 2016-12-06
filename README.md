@@ -1,6 +1,6 @@
 # Aurora color scheme
 
-To install this color scheme:
+In order to install this color scheme:
 -        on Linux, copy colors/aurora.vim to ~/.vim/colors/aurora.vim
 -        on Windows, copy colors/aurora.vim to C:/Users/YOUR_USERNAME/vimfiles/colors/aurora.vim
 
@@ -8,15 +8,17 @@ To load this scheme in Vim, use command
 
     :colorscheme aurora
 
-or place the following line in your vimrc file:
+or add the following line to your vimrc file:
 
     colorscheme aurora
 
 ## Using scheme with vim-airline plugin
-To use this scheme with vim-airline plugin (https://github.com/bling/vim-airline), copy
-    vim-airline/autoload/airline/themes/aurora.vim to folder, which contains this plugin
+In order to use this scheme with vim-airline plugin (https://github.com/bling/vim-airline), you can either
+- install official vim-airline-themes repository (https://github.com/vim-airline/vim-airline-themes), which
+  already contains this theme, or
+- copy vim-airline/autoload/airline/themes/aurora.vim file to your vim-airline directory.
 
-To load this scheme in vim-airline, place the following lines in your vimrc file:
+To load this scheme in vim-airline, add the following lines to your vimrc file:
 
     let g:airline_theme = 'aurora'
 
