@@ -50,7 +50,7 @@ hi Number      guifg=#40a070 gui=NONE ctermfg=71
 hi Float       guifg=#70a040 gui=NONE ctermfg=71
 hi Statement   guifg=#06287e gui=NONE ctermfg=18
 
-hi Type        guifg=#06287e gui=NONE ctermfg=18
+hi Type        guifg=#26559e gui=NONE ctermfg=27
 hi Structure   guifg=#06287e gui=NONE ctermfg=18
 hi Function    guifg=#06287e gui=NONE ctermfg=18
 hi Identifier  guifg=#5b3674 gui=NONE ctermfg=60
@@ -71,7 +71,7 @@ hi SpecialChar    guifg=#5f8787 gui=NONE ctermfg=66
 hi SpecialComment guifg=#5f8787 gui=NONE ctermfg=66
 
 " Spaces and Tabs
-hi SpecialKey guifg=#d0b0b0 guibg=#fafafa gui=NONE ctermfg=181 ctermbg=231
+hi SpecialKey guifg=#c0c0c0 guibg=#fafafa gui=NONE ctermfg=181 ctermbg=231
 
 " Diff
 hi DiffChange guifg=NONE guibg=#e0e0e0 gui=italic,bold ctermfg=NONE ctermbg=188
