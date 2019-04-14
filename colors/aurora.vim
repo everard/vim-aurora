@@ -46,6 +46,7 @@ hi! TabLine ctermbg=145 ctermfg=16 guibg=#b0b8c0 guifg=#000000 gui=italic
 hi! TabLineFill ctermfg=103 guifg=#9098a0 gui=NONE
 hi! TabLineSel ctermbg=231 ctermfg=16 guibg=#f0f0f0 guifg=#000000 gui=italic,bold
 hi! VertSplit ctermbg=145 ctermfg=145 guibg=#a0b0c0 guifg=#a0b0c0 gui=NONE
+hi! Visual ctermbg=252 guibg=#d0d0d0 gui=NONE
 
 " Syntax groups
 hi! Comment ctermfg=22 guifg=#007020 gui=NONE
