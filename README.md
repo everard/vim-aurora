@@ -13,9 +13,7 @@ or add the following line to your vimrc file:
     colorscheme aurora
 
 ## Using scheme with vim-airline plugin
-In order to use this scheme with vim-airline plugin (https://github.com/bling/vim-airline), you can either
-- install official vim-airline-themes repository (https://github.com/vim-airline/vim-airline-themes), which
-  already contains this theme, or
+In order to use this scheme with vim-airline plugin (https://github.com/bling/vim-airline), you can
 - copy vim-airline/autoload/airline/themes/aurora.vim file to your vim-airline directory.
 
 To load this scheme in vim-airline, add the following lines to your vimrc file:
