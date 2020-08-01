@@ -30,7 +30,7 @@ hi! DiffText ctermbg=120 ctermfg=59 guibg=#87ff87 guifg=#404850 gui=NONE
 hi! FoldColumn ctermbg=251 ctermfg=145 guibg=#c6c6c6 guifg=#a0a0a0 gui=NONE
 hi! Folded ctermbg=188 ctermfg=145 guibg=#e8e8e8 guifg=#a0a0a0 gui=NONE
 hi! LineNr ctermbg=231 ctermfg=59 guibg=#eeeeee guifg=#333333 gui=NONE
-hi! MatchParen ctermbg=248 ctermfg=59 guibg=#a8a8a8 guifg=#404850 gui=NONE
+hi! MatchParen ctermbg=231 ctermfg=59 cterm=bold guibg=#fafafa guifg=#404850 gui=bold
 
 hi! Pmenu ctermbg=102 ctermfg=231 guibg=#808080 guifg=#ffffff gui=NONE
 
@@ -53,7 +53,7 @@ hi! Comment ctermfg=22 guifg=#007020 gui=NONE
 hi! Conditional ctermfg=18 guifg=#06287e gui=NONE
 hi! Constant ctermfg=131 guifg=#a07040 gui=NONE
 hi! Define ctermfg=25 guifg=#1060a0 gui=NONE
-hi! Error ctermfg=196 guifg=#ff0000 gui=bold,underline
+hi! Error ctermbg=231 ctermfg=196 guibg=#fafafa guifg=#ff0000 gui=undercurl
 hi! Float ctermfg=71 guifg=#70a040 gui=NONE
 hi! Function ctermfg=18 guifg=#06287e gui=NONE
 hi! Identifier ctermfg=60 guifg=#5b3674 gui=NONE
