@@ -17,7 +17,7 @@ let g:colors_name = 'aurora'
 
 " Default groups
 hi! Normal ctermbg=231 ctermfg=59 guibg=#fafafa guifg=#404850 gui=NONE
-hi! NonText ctermbg=231 ctermfg=145 guibg=#fafafa guifg=#a0a0a0 gui=NONE
+hi! NonText ctermfg=145 guifg=#a0a0a0 gui=NONE
 
 hi! Cursor ctermbg=145 ctermfg=16 guibg=#b0b4b8 guifg=#000000 gui=NONE
 hi! CursorLine ctermbg=231 guibg=#f6f6f6 gui=NONE
